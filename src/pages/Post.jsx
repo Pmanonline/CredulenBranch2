@@ -932,7 +932,7 @@ export default function Post() {
   return (
     <Grid container spacing={3} sx={{ px: { xs: 4, md: 8 }, py: 10 }}>
       {/* Hero Section (keeping the same as before) */}
-      <div className="relativ h-[90vh] w-full ">
+      <div className="relativ h-[80vh] w-full ">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -942,7 +942,7 @@ export default function Post() {
           <div className="absolute inset-0 bg-black/50" />
         </div>
 
-        <div className="relative h-full flex flex-col justify-end pb-16 px-4 md:px-8 lg:px-16">
+        <div className="relative h-full flex flex-col justify-end  bottom-[4rem] px-4 md:px-8 lg:px-16">
           <div className="mb-4">
             <Link
               to={`/blog?category=${encodeURIComponent(post.category)}`} // Pass category as a query parameter
